@@ -1,5 +1,7 @@
 # Pandas-Primer
-A primer on Pandas
+A primer on Pandas.
+
+Ashwin Nalwade.
 
 ## Working with datasets
 - Read a CSV file
