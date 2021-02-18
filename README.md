@@ -7,7 +7,24 @@ A primer on Pandas
   ```python 
   pd.read_csv(file_path) 
   ```
-- Rean an excel file
+- Read an excel file
   ```python
   pd.read_excel(file_path) 
   ```
+- Read a table [.dat]
+  ```python
+  pd.read_table(file path, delim_whitespace=True)
+  ```
+
+## One-Hot Encoding
+
+## Working with dummy variables
+Used to quantify non-numeric categorical variables.
+
+```python
+df_dummy = pd.get_dummies[df['column_name']]
+# check
+df_dummy.head()
+```
+
+## Difference between concat, merge and join.
