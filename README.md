@@ -29,3 +29,5 @@ df_dummy.head()
 
 ## Difference between concat(), merge() and join().
 - ``` concat()``` is used for appending dataframes. We can append across columns ```set axis = 1``` or across rows ```set axis = 0```.
+- ``` merge()``` is used for combining dataframes on the basis of data stored in common columns. 
+- ``` join()``` is used for merging dataframes on the basis of index.
